@@ -2,14 +2,8 @@
 
 
 def no_c(my_string):
-    str_list = list(my_string)
-    try:
-        str_list.remove('c')
-    except ValueError:
-        pass
-    try:
-        str_list.remove('C')
-    except ValueError:
-        pass
-    my_string = ''.join(str_list)
-    return my_string
+    """
+    A function to remove all characters c and C from a string.
+    """
+    copy = [x for x in my_string if x != 'c' and x != 'C']
+    return ("".join(copy))
