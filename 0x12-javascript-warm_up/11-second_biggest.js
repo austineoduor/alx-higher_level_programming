@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let array = [];
+const array = [];
 if (!isNaN(process.argv[3])) {
   for (let i = 2; i < process.argv.length; i++) {
     array[i - 2] = (process.argv[i]);
