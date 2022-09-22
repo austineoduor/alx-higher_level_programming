@@ -1,3 +1,3 @@
 #!/bin/bash
-# make a request to 0.0.0.0:5000/catch_me sending a response
-curl -sL 0:5000/catch_me -X PUT -H "You got me!"
+# Script that makes a request to causes an specific response
+curl -sL 0.0.0.0:5000/catch_me -X PUT -H "You got me!"
