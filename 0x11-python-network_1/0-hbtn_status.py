@@ -11,7 +11,7 @@ if __name__ == "__main__":
         Fetching https://alx-intranet.hbtn.io/status
     """
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') 
-                                as response:
+                                 as response:
         html = response.read()
 
     print("Body response:")
